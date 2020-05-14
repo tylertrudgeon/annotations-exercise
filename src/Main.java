@@ -5,7 +5,11 @@ public class Main {
         author.addBook("Practical Object-Oriented Design in Ruby");
         author.addBook("99 Bottles of OOP");
 
+<<<<<<< HEAD
         for (Object book: author.publishedBooks()) {
+=======
+        for (String book: author.publishedBooks()) {
+>>>>>>> easy_fix
             System.out.println(book);
         }
     }
